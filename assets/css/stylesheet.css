@@ -1,0 +1,258 @@
+
+
+.modal-title{
+	font-size:22px;
+	font-weight:bold;
+	text-align:left;
+	padding-top:0px;
+	color:#11458E;
+}
+
+footer {
+    margin: 10px 0;
+	text-align:center;
+}
+
+
+
+* {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+*:before, *:after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.clearfix {
+  clear:both;
+}
+
+.text-center {text-align:center;}
+
+pre {
+display: block;
+padding: 9.5px;
+margin: 0 0 10px;
+font-size: 13px;
+line-height: 1.42857143;
+color: #333;
+word-break: break-all;
+word-wrap: break-word;
+background-color: #F5F5F5;
+border: 1px solid #CCC;
+border-radius: 4px;
+}
+
+.header {
+  padding:20px 0;
+  position:relative;
+  margin-bottom:10px;
+  
+}
+
+.header:after {
+  content:"";
+  display:block;
+  height:1px;
+  background:#eee;
+  position:absolute; 
+  left:30%; right:30%;
+}
+
+.header h2 {
+  font-size:3em;
+  font-weight:300;
+  margin-bottom:0.2em;
+}
+
+.header p {
+  font-size:14px;
+}
+
+.success-box {
+  margin:0px 0;
+  padding:10px 10px;
+  border:1px solid #eee;
+  background:#f9f9f9;
+}
+
+.success-box img {
+  margin-right:10px;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.success-box > div {
+  vertical-align:top;
+  display:inline-block;
+  color:#888;
+}
+
+.star-box > div {
+  margin:50px 0;
+  padding:10px 10px;
+  border:1px solid #eee;
+  background:#f9f9f9;
+}
+
+.star-box img {
+  margin-right:10px;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.star-box > div {
+  vertical-align:top;
+  display:inline-block;
+  color:#888;
+}
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+  
+}
+
+.modal-body{
+    max-height: calc(80vh - 150px);
+    overflow-y: auto;
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:2em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+  color:#FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+  color:#FF912C;
+}
+
+.rating-fixed{
+padding:8px 0px 4px 0px;
+text-align:left;
+}
+
+.rating-fixed i.fa {
+  font-size:2em; /* Change the size of the stars */
+  color:#FF912C; /* Color on idle state */
+}
+
+.rating-fixed i.cd {
+  font-size:2em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+.rating-fixed span{
+font-size:25px;
+color:#11458E;
+padding-right:15px ;
+text-align:left;
+font-weight:bold;
+}
+
+.rating-fixed-mobile i.fa {
+  font-size:1.5em; /* Change the size of the stars */
+  color:#FF912C; /* Color on idle state */
+}
+
+.rating-fixed-mobile i.cd {
+  font-size:1.5em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+.rating-fixed-mobile span{
+font-size:25px;
+color:#11458E;
+padding-right:15px ;
+text-align:left;
+font-weight:bold;
+}
+
+.selected{
+  color:#FF912C;
+}
+
+.comment-icon {
+    color: #11458E;
+    text-shadow: 1px 1px 1px #ccc;
+    /* font-size: 1.5em; */
+	padding:22px 0px 5px 0px;
+}
+
+.comment-icon:hover{
+    color: #FF912C;
+}
+
+.autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+
+    /* core styles should not be changed */
+    position: absolute; display: none; z-index: 9999; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+.autocomplete-suggestion b { font-weight: normal; color: #1f8dd6; }
+.autocomplete-suggestion.selected { background: #f0f0f0; }
+
+.img_frame{
+    float:left;
+    position: relative;
+    top: 0px
+}
+
+
+
+
+
+.name_class{
+font-size:25px;
+color:#11458E;
+padding-right:15px ;
+text-align:left;
+font-weight:bold;
+}
+
+.star-in {
+  position: relative;
+  display: inline-block;
+  font-size: 28px;
+  padding-right:9px;
+  padding-top:10px;
+}
+
+.star-under {
+  color: #ddd;
+}
+
+.star-over {
+  color: #f80;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.star-empty {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
